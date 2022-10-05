@@ -1,0 +1,44 @@
+lx-higher_level_programming  alx-low_level_programming  monty
+vagrant@ubuntu-focal:~$ cd  monty
+vagrant@ubuntu-focal:~/monty$ ls
+README.md  free_stk.c  monty    operator_functions.c  stack_functions.c
+_ops.c     main.c      monty.h  queue_conv.c          stackmod_functions.c
+vagrant@ubuntu-focal:~/monty$ mkdir bf
+vagrant@ubuntu-focal:~/monty$ cd  monty
+-bash: cd: monty: Not a directory
+vagrant@ubuntu-focal:~/monty$ cd bf
+vagrant@ubuntu-focal:~/monty/bf$ ls
+vagrant@ubuntu-focal:~/monty/bf$ vi 1000-school.bf
+i vagrant@ubuntu-focal:~/monty/bf$ vi 1001-add.bf
+vagrant@ubuntu-focal:~/monty/bf$ vi 1002-mul.bf
+vagrant@ubuntu-focal:~/monty/bf$ vi 1003-mul.bf
+vagrant@ubuntu-focal:~/monty/bf$ git add .
+vagrant@ubuntu-focal:~/monty/bf$ git commit -m 'monty brainfuck test'
+[main c2a992e] monty brainfuck test
+ 4 files changed, 114 insertions(+)
+ create mode 100644 bf/1000-school.bf
+ create mode 100644 bf/1001-add.bf
+ create mode 100644 bf/1002-mul.bf
+ create mode 100644 bf/1003-mul.bf
+vagrant@ubuntu-focal:~/monty/bf$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 869 bytes | 217.00 KiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/adesanyaopeyemi06/monty.git
+   fc12f7e..c2a992e  main -> main
+vagrant@ubuntu-focal:~/monty/bf$ cd ..
+vagrant@ubuntu-focal:~/monty$ mkdir bytecodes
+vagrant@ubuntu-focal:~/monty$ cd bytecodes
+vagrant@ubuntu-focal:~/monty/bytecodes$ ls
+vagrant@ubuntu-focal:~/monty/bytecodes$ vi 00.m
+vagrant@ubuntu-focal:~/monty/bytecodes$ vi 000.m
+vagrant@ubuntu-focal:~/monty/bytecodes$ vi 001.m
+vagrant@ubuntu-focal:~/monty/bytecodes$ vi 002.m
+vagrant@ubuntu-focal:~/monty/bytecodes$ vi 003.m
+vagrant@ubuntu-focal:~/monty/bytecodes$ vi 06.m
+vagrant@ubuntu-focal:~/monty/bytecodes$ vi 07.m
+vagrant@ubuntu-focal:~/monty/bytecodes$ vi
